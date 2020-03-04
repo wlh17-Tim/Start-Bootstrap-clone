@@ -20,7 +20,51 @@ body {
 
 .header-links {
   color: white;
-  width: 50%;
+  width: 55%;
   display: flex;
   justify-content: space-between;
+}
+
+.dropdown-toggle {
+  height: 40px;
+  width: 80px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FED136;
+  color: white;
+  display: none;
+}
+
+.mobile-links {
+  display: none;
+}
+
+@media(max-width: 992px){
+  .main-header {
+    height: 100px;
+    background-color: #212529;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .dropdown-toggle {
+    display: initial;
+    display: flex;
+  }
+
+  .mobile-links {
+    display: initial;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(230, 66, 66);
+    position: fixed;
+    top: 100px;
+    left: 0px;
+  }
 }
