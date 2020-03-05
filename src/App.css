@@ -48,6 +48,7 @@ body {
 }
 
 .middle-text {
+  width: 100%;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
@@ -97,11 +98,12 @@ body {
 
   .mobile-links {
     display: initial;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 100%;
     background-color: rgb(230, 66, 66);
     position: fixed;
     top: 100px;
     left: 0px;
+    padding-left: 200px;
   }
 }
