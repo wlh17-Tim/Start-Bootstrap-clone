@@ -49,12 +49,12 @@ class App extends Component {
                 <p>CONTACT</p>
               </nav>
       </header>
-      <div className=''>
-        <p>Welcome To Our Studio</p>
-        <p>IT'S NICE TO MEET YOU</p>
-        <div>
-          <p>TELL ME MORE</p>
-        </div>
+      <div className='middle-text'>
+        <p className='welcome'>Welcome To Our Studio!</p>
+        <p className='meet'>IT'S NICE TO MEET YOU</p>
+        <button className='tell-me-more'>
+          TELL ME MORE
+        </button>
       </div>
     </div>
   );

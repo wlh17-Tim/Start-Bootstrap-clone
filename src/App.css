@@ -1,15 +1,19 @@
 body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
   background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
 }
 
 .main-header {
-  /* height: 100px; */
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   padding-left: 200px;
-  padding-right: 200px;
+  padding-right: 225px;
   
 }
 
@@ -20,7 +24,7 @@ body {
 
 .header-links {
   color: white;
-  width: 55%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
 }
@@ -41,6 +45,39 @@ body {
 
 .mobile-links {
   display: none;
+}
+
+.middle-text {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.welcome {
+  font-Family: 'droid serif';
+  font-Style: italic;
+  font-size: 40px;
+  margin: 0px 0px 25px;
+  box-sizing: border-box;
+}
+
+.meet {
+  font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 0px 50px;
+  font-weight: 700;
+}
+
+.tell-me-more {
+  background-color: #FED136;
+  border-color: #FED136;
+  color: white;
+  border-radius: 7px;
+  font-size: 18px;
+  padding: 20px 40px;
+  font-weight: 700;
 }
 
 @media(max-width: 992px){
